@@ -1,0 +1,51 @@
+img{
+    max-width: 100%;
+}
+body{
+    max-width: 800px;
+    margin: auto;
+}
+@media screen and (min-width: 800px){
+    .header{
+        text-align: center;
+    }
+    .introWrapper{
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    }
+    .moneyShot, .introText{
+        display: table-cell;
+        width: 50%;
+        vertical-align: middle;
+        text-align: center;
+        position: relative;
+    }
+    .introText{
+        padding: .5rem;
+        font-size: 2.5rem;
+        text-align: left;
+    }
+    .imageCaption{
+        position: absolute;
+        bottom: .5rem;
+        right: .5rem;
+        left: .5rem;
+        text-align: right;
+        margin: 0px;
+        text-shadow: 2px 1px 2px rgb(0, 0, 0);
+        color: #fff;
+    }
+    .ingredients{
+        font-size: .9rem;
+        float: right;
+        padding: 1rem;
+        margin: 0 0 .5rem 1rem;
+        border-radius: 3px;
+        border: 2px solid #e3cfa9;
+        background-color: #fffdff;
+    }
+    .ingredients h3{
+        margin: 0;
+    }
+}
